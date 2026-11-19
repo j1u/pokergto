@@ -1,0 +1,19 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+
+# Node / build output
+node_modules/
+frontend/dist/
+
+# Editors / local tools
+.idea/
+.vscode/
+.claude/
+*.log
+.DS_Store
+Thumbs.db
+
+# stray npm lockfile (backend is Python-only)
+backend/package-lock.json
